@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            text-align: center;
+        }
+        h1 {
+            color: #ff6347;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .team-member {
+            background-color: #2b2b2b;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: calc(21% - 40px); /* Reduced width by 20% */
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 50%;
+            border: 2px solid #ff6347;
+        }
+        .team-member h2 {
+            color: #ff6347;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            font-size: 1.2em;
+        }
+        .team-member p {
+            margin: 8px 0;
+            font-size: 0.9em;
+        }
+        .team-member .email::before {
+            content: "📧 ";
+            color: #add8e6; /* Light blue */
+        }
+        .team-member .college::before {
+            content: "🏫 ";
+            color: #ff6347;
+        }
+        .button-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button {
+            background-color: #9c6fd5;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Team</h1>
+    <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Nabin Kumar Upadhaya">
+        <h2>Nabin Kumar Upadhaya</h2>
+        <p class="email"><a href="mailto:nabinkumar2150@gmail.com">nabinkumar2150@gmail.com</a></p>
+        <p>Pursuing: B-Tech in CSE in specialization in AI</p>
+        <p class="college">VIT-AP</p>
+    </div>
+    <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Dheeraj Sai.T">
+        <h2>Dheeraj Sai.T</h2>
+        <p class="email"><a href="mailto:dheerajsai1202@gmail.com">dheerajsai1202@gmail.com</a></p>
+        <p>Pursuing: B-Tech in CSE in specialization in Data Analytics</p>
+        <p class="college">VIT-AP</p>
+    </div>
+    <div class="team-member">
+        <img src="https://via.placeholder.com/150" alt="Rahul Panigrahi">
+        <h2>Rahul Panigrahi</h2>
+        <p class="email"><a href="mailto:rahulpanigrahi2126@gmail.com">rahulpanigrahi2126@gmail.com</a></p>
+        <p>Pursuing: B-Tech in CSE</p>
+        <p class="college">VIT-AP</p>
+    </div>
+    <div class="button-container">
+        <a href="/" class="button">Return to Home Page</a>
+    </div>
+</body>
+</html>
