@@ -94,7 +94,7 @@ def get_wikimedia_image(query):
 # Function to get information using Gemini
 def get_gemini_info(query):
     # Replace 'YOUR_API_KEY' with your actual Google API key
-    GOOGLE_API_KEY = "AIzaSyCDB2nPeHI_Csv9lmsfSH6UK91l-jVXQMc"
+    GOOGLE_API_KEY = "(Enter you Gemini API here)"
     genai.configure(api_key=GOOGLE_API_KEY)
 
     # Initialize a GenerativeModel instance with 'gemini-pro' model
