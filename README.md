@@ -1,5 +1,16 @@
 # BirdRecon: A Free Open Source Tool for Image based Bird Identification
 
+## Introduction
+
+This article presents a free open-source bird identification application designed to support ornithologists and bird enthusiasts in their field research and observations with user-friendly features. The application supports multiple languages, including English, Telugu, and Hindi, making it particularly valuable for conducting field surveys in diverse regions of India.
+
+The system architecture integrates Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval, offering a comprehensive reference tool. Users can initiate searches using bird names or uploaded images, with the system optimized for efficient processing to ensure a seamless user experience.
+
+A key feature of this project is its open-source nature, with the entire codebase publicly available on GitHub. This approach fosters community collaboration, allowing continuous improvement and customization to meet specific research needs. The application is accessible through both mobile and web platforms, maximizing its reach and utility.
+
+This research contributes to the field of ornithology by providing a user-friendly tool that bridges the gap between amateur bird watching and professional research. The multilingual support and open-source framework make it particularly valuable for field surveys across diverse regions, potentially accelerating data collection and analysis in ornithological studies.
+
+
 This project involves deploying a server for bird species classification using ensemble learning, which includes two functionalities: search by bird name and search by image upload at the location BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/. The following steps guide you through deploying the server on Microsoft Azure, setting up the Android app, and configuring the website.
 
 ## Prerequisites
