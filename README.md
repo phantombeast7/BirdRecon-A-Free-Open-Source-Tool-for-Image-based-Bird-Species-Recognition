@@ -1,6 +1,6 @@
 # BirdRecon: A Free Open Source Tool for Image based Bird Identification
 
-This project involves deploying a server for bird species classification using ensemble learning, which includes two functionalities: search by bird name and search by image upload. The following steps guide you through deploying the server on Microsoft Azure, setting up the Android app, and configuring the website.
+This project involves deploying a server for bird species classification using ensemble learning, which includes two functionalities: search by bird name and search by image upload at the location BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/. The following steps guide you through deploying the server on Microsoft Azure, setting up the Android app, and configuring the website.
 
 ## Prerequisites
 
