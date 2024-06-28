@@ -4,9 +4,10 @@ This project involves deploying a server for bird species classification using e
 
 ## Prerequisites
 
-1. Install Docker
-2. Install Azure CLI
-3. Create a Microsoft Azure account
+
+1. [Install Docker](https://docs.docker.com/get-docker/)
+2. [Install Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+3. [Create a Microsoft Azure account](https://azure.microsoft.com/en-us/free/)
 
 ## Server Deployment
 
