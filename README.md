@@ -77,7 +77,7 @@ Your app is now ready.
 
 Before deploying the website, update the endpoint URL in the code:
 
-1. Navigate to `Birds-Species-Classification-Using-Ensemble-Learning/Website/` and open `app.py` in a text editor.
+1. Navigate to `BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Website/` and open `app.py` in a text editor.
 2. Replace the URL on line 26 with the endpoint for "search by image upload."
 
 Follow the Server Deployment steps to deploy the updated website.
