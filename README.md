@@ -1,4 +1,4 @@
-# BirdRecon: A Free Open Source Tool for Image based Bird Identification
+# BirdRecon: A Free Open Source Tool for Image based Bird Species Recognition
 
 ## Introduction
 
