@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository  presents a free open-source bird identification application designed to support ornithologists and bird enthusiasts in their field research and observations with user-friendly features. The application supports multiple languages, including English, Telugu, and Hindi, making it particularly valuable for conducting field surveys in diverse regions of India.
+This repository  presents a free open-source bird identification application designed to support ornithologists and bird enthusiasts in their field research and observations with user-friendly features.
 
 The system architecture integrates Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval, offering a comprehensive reference tool. Users can initiate searches using bird names or uploaded images, with the system optimized for efficient processing to ensure a seamless user experience.
 
