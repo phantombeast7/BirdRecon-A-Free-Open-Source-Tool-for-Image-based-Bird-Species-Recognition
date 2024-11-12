@@ -63,6 +63,8 @@ def get_gemini_info(query):
     return {'summary': limited_response}  # Assuming Gemini does not return image URLs
 
 
+
+
 # Define a route for handling bird information
 @app.route('/bird_info', methods=['POST'])
 def get_bird_info():
