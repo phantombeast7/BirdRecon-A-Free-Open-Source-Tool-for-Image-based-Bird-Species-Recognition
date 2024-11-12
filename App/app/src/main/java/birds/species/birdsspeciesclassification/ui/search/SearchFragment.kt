@@ -366,5 +366,7 @@ class SearchFragment : Fragment() {
             }
             return byteArrayOutputStream.toByteArray()
         }
+        
     }
+    
 }
