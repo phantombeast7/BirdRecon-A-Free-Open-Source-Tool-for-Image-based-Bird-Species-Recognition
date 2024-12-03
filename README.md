@@ -1,101 +1,184 @@
-# BirdRecon: A Free Open Source Tool for Image based Bird Species Recognition
+# <div align="center"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=🦜+BirdRecon;Bird+Species+Recognition" alt="BirdRecon" /></div>
 
-## Introduction
+<div align="center">
 
-This repository  presents a free open-source bird identification application designed to support ornithologists and bird enthusiasts in their field research and observations with user-friendly features.
+<img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=black" alt="License" />
+<img src="https://img.shields.io/badge/Azure-Deployed-0078D4?style=for-the-badge&logo=microsoftazure&labelColor=black" alt="Azure" />
+<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&labelColor=black" alt="Docker" />
+<img src="https://img.shields.io/badge/Status-Active-4CAF50?style=for-the-badge&labelColor=black" alt="Status" />
 
-The system architecture integrates Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval, offering a comprehensive reference tool. Users can initiate searches using bird names or uploaded images, with the system optimized for efficient processing to ensure a seamless user experience.
+<br/>
+<br/>
 
-A key feature of this project is its open-source nature, with the entire codebase publicly available on GitHub. This approach fosters community collaboration, allowing continuous improvement and customization to meet specific research needs. The application is accessible through both mobile and web platforms, maximizing its reach and utility.
+<img src="https://raw.githubusercontent.com/yourusername/BirdRecon/main/assets/logo.png" alt="BirdRecon Logo" width="200" height="200" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
 
-This research contributes to the field of ornithology by providing a user-friendly tool that bridges the gap between amateur bird watching and professional research. The multilingual support and open-source framework make it particularly valuable for field surveys across diverse regions, potentially accelerating data collection and analysis in ornithological studies.
+<h2>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=Free+Open+Source+Tool;for+Bird+Species+Recognition" alt="Typing SVG" />
+</h2>
 
+<p align="center">
+  <em>A comprehensive tool for ornithologists and bird enthusiasts powered by Google Gemini and Wikimedia Commons</em>
+</p>
 
-This project involves deploying a server for bird species classification using ensemble learning, which includes two functionalities: search by bird name and search by image upload at the location BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/. The following steps guide you through deploying the server on Microsoft Azure, setting up the Android app, and configuring the website.Before starting after you download all the files go to this directory 
-"BreadcrumbsBirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/Search By Image" open "ensemble_final.tflite Link"  text file and download the model from the drive as the model is a bit large in size so we have kept it in drive place the downloaded file in "BreadcrumbsBirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/Search By Image" location .Next Follow the below steps.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## Prerequisites
+</div>
 
+## 🌟 **Introduction**
 
-1. Download and Install [Docker](https://docs.docker.com/get-docker/)
-2. Download and Install [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
-3. Create a account on [Microsoft Azure account](https://azure.microsoft.com/en-us/free/)
+BirdRecon is a cutting-edge, free open-source bird identification application designed to support ornithologists and bird enthusiasts. By integrating Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval, we provide a comprehensive reference tool that bridges the gap between amateur bird watching and professional research.
 
+### 🎯 **Key Features**
 
-## Server Deployment
+<div align="center">
 
-### Steps
+<table>
+<tr>
+<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3o7TKSjRrfIPjeiVyE/giphy.gif" width="60px"/><br/><b>Image Recognition</b></td>
+<td>Advanced bird species identification from uploaded images</td>
+</tr>
+<tr>
+<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60px"/><br/><b>Name Search</b></td>
+<td>Search by bird species names with detailed information</td>
+</tr>
+<tr>
+<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xT9IgzoKnwFNmISR8I/giphy.gif" width="60px"/><br/><b>Multi-platform</b></td>
+<td>Available on both mobile and web platforms</td>
+</tr>
+<tr>
+<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0HlQXlQ3nHyLMvte/giphy.gif" width="60px"/><br/><b>Open Source</b></td>
+<td>Community-driven development and customization</td>
+</tr>
+</table>
 
-1. **Log in to Azure:**
-    ```sh
-    az login
-    ```
+</div>
 
-2. **Log in to Azure Container Registry:**
-    ```sh
-    az acr login --name <YourContainerRegistryName>
-    ```
-    Replace `<YourContainerRegistryName>` with the name of your Azure Container Registry (e.g., `birdsdetection`).
+## 📋 **Prerequisites**
 
-3. **Build the Docker image:**
-    ```sh
-    docker build -t <YourLocalImageName>:<Tag> .
-    ```
-    Navigate to the directory containing your Dockerfile and run the above command. Replace `<YourLocalImageName>` with a name for your local Docker image (e.g., `my_flask_app`) and `<Tag>` with a tag for the version (e.g., `v1`).
+<table>
+<tr>
+<td><img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-32x32.png" width="20"/></td>
+<td><a href="https://docs.docker.com/get-docker/">Docker</a></td>
+</tr>
+<tr>
+<td><img src="https://learn.microsoft.com/en-us/azure/media/index/azure-cli.svg" width="20"/></td>
+<td><a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli">Azure CLI</a></td>
+</tr>
+<tr>
+<td><img src="https://azure.microsoft.com/favicon.ico" width="20"/></td>
+<td><a href="https://azure.microsoft.com/en-us/free/">Microsoft Azure Account</a></td>
+</tr>
+</table>
 
-4. **Tag the Docker image:**
-    ```sh
-    docker tag <YourLocalImageName>:<Tag> <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
-    ```
-    Replace `<YourLocalImageName>` and `<Tag>` with the names used in the previous step. Replace `<YourContainerRegistryName>` with the name of your Azure Container Registry, and `<YourImageName>` with the desired name for the image in the registry (e.g., `my_flask_app`).
+## 🚀 **Server Deployment**
 
-5. **Push the Docker image to Azure Container Registry:**
-    ```sh
-    docker push <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
-    ```
-    Replace `<YourContainerRegistryName>`, `<YourImageName>`, and `<Tag>` with the names used in the previous steps.
+### **Important Note**
+Before starting, download the model file from the provided drive link in `ensemble_final.tflite Link` and place it in:
+```
+BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/Search By Image/
+```
 
-6. **Create an Azure App Service plan:**
-    ```sh
-    az appservice plan create --name <YourAppServicePlanName> --resource-group <YourResourceGroupName> --sku B1 --is-linux
-    ```
-    Replace `<YourAppServicePlanName>` with a name for your App Service plan, and `<YourResourceGroupName>` with the name of your resource group (e.g., `BirdsWebsite`).
+### **Deployment Steps**
 
-7. **Create a web app with Docker container:**
-    ```sh
-    az webapp create --resource-group <YourResourceGroupName> --plan <YourAppServicePlanName> --name <YourWebAppName> --deployment-container-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
-    ```
-    Replace `<YourResourceGroupName>`, `<YourAppServicePlanName>`, `<YourWebAppName>`, `<YourContainerRegistryName>`, `<YourImageName>`, and `<Tag>` with the names used in the previous steps. `<YourWebAppName>` should be a unique name for your web app.
+<details>
+<summary>1️⃣ Azure Setup</summary>
 
-8. **Configure the web app to use the container registry:**
-    ```sh
-    az webapp config container set --resource-group <YourResourceGroupName> --name <YourWebAppName> --docker-custom-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag> --docker-registry-server-url https://<YourContainerRegistryName>.azurecr.io
-    ```
-    Replace `<YourResourceGroupName>`, `<YourWebAppName>`, `<YourContainerRegistryName>`, `<YourImageName>`, and `<Tag>` with the names used in the previous steps.
+```bash
+# Login to Azure
+az login
 
-After deploying both functionalities, you will receive two URL endpoints, which are needed for the next steps.
+# Login to Azure Container Registry
+az acr login --name <YourContainerRegistryName>
+```
+</details>
 
-## App Setup
+<details>
+<summary>2️⃣ Docker Configuration</summary>
 
-1. Download and install [Android Studio](https://developer.android.com/studio).
-2. Open Android Studio, click on "Open," navigate to the folder downloaded from GitHub, and open it.
-3. Change the endpoint URLs in the code:
-    - Go to `birds/species/birdsspeciesclassification/ui/search/SearchFragment.kt`.
-    - Change the URL at line 201 to the endpoint for "search by name of the bird."
-    - Change the URL at line 258 to the endpoint for "search by image of the bird."
+```bash
+# Build Docker image
+docker build -t <YourLocalImageName>:<Tag> .
 
-Your app is now ready.
+# Tag Docker image
+docker tag <YourLocalImageName>:<Tag> <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
 
-## Website Setup
+# Push to Azure Container Registry
+docker push <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
+```
+</details>
 
-Before deploying the website, update the endpoint URL in the code:
+<details>
+<summary>3️⃣ Azure App Service Setup</summary>
 
-1. Navigate to `BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Website/` and open `app.py` in a text editor.
-2. Replace the URL on line 26 with the endpoint for "search by image upload."
+```bash
+# Create App Service plan
+az appservice plan create --name <YourAppServicePlanName> --resource-group <YourResourceGroupName> --sku B1 --is-linux
 
-Follow the Server Deployment steps to deploy the updated website.
+# Create web app
+az webapp create --resource-group <YourResourceGroupName> --plan <YourAppServicePlanName> --name <YourWebAppName> --deployment-container-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
 
-## Conclusion
+# Configure container registry
+az webapp config container set --resource-group <YourResourceGroupName> --name <YourWebAppName> --docker-custom-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag> --docker-registry-server-url https://<YourContainerRegistryName>.azurecr.io
+```
+</details>
 
-After completing all the steps, your app, website, and server will be ready for use from anywhere.
+## 📱 **App Setup**
 
+1. Install [Android Studio](https://developer.android.com/studio)
+2. Open the project in Android Studio
+3. Update API endpoints in `birds/species/birdsspeciesclassification/ui/search/SearchFragment.kt`:
+   - Line 201: Update "search by name" endpoint
+   - Line 258: Update "search by image" endpoint
+
+## 🌐 **Website Setup**
+
+1. Navigate to `Website/app.py`
+2. Update the endpoint URL on line 26 with your "search by image upload" endpoint
+3. Follow the Server Deployment steps to deploy the website
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+## 🤝 **Contributing**
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+
+We welcome contributions! Here's how you can help:
+
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch
+3. ✍️ Commit your changes
+4. 🚀 Push to the branch
+5. 🎉 Open a Pull Request
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+
+## 📄 **License**
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<div align="center">
+
+### 🎯 **Ready to start identifying birds?**
+
+<a href="https://github.com/yourusername/BirdRecon">
+  <img src="https://img.shields.io/badge/Get_Started-00C7B7?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Get Started"/>
+</a>
+<a href="https://github.com/yourusername/BirdRecon/issues">
+  <img src="https://img.shields.io/badge/Report_Bug-FF0000?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Report Bug"/>
+</a>
+<a href="https://github.com/yourusername/BirdRecon/issues">
+  <img src="https://img.shields.io/badge/Request_Feature-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Request Feature"/>
+</a>
+
+<br/>
+<br/>
+
+<a href="https://github.com/yourusername">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=Made+with+❤️+by+Your+Name" alt="Made by" />
+</a>
+
+<img src="https://raw.githubusercontent.com/trinib/trinib/main/.images/footer.svg" width="100%">
+
+</div>
