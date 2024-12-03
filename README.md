@@ -2,155 +2,147 @@
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&labelColor=black" alt="License" />
-<img src="https://img.shields.io/badge/Azure-Deployed-0078D4?style=for-the-badge&logo=microsoftazure&labelColor=black" alt="Azure" />
-<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&labelColor=black" alt="Docker" />
-<img src="https://img.shields.io/badge/Status-Active-4CAF50?style=for-the-badge&labelColor=black" alt="Status" />
+<img src="https://img.shields.io/badge/License-MIT-green?style=flat&logo=opensourceinitiative&logoColor=white" alt="License MIT" />
+<img src="https://img.shields.io/badge/Gemini_API-Connected-4285F4?style=flat&logo=google&logoColor=white" alt="Gemini API Connected" />
+<img src="https://img.shields.io/badge/TensorFlow_Lite-Enabled-FF6F00?style=flat&logo=tensorflow&logoColor=white" alt="TensorFlow Lite Enabled" />
+<img src="https://img.shields.io/badge/Deploy-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Deploy Azure" />
 
 <br/>
 <br/>
 
-<img src="https://raw.githubusercontent.com/yourusername/BirdRecon/main/assets/logo.png" alt="BirdRecon Logo" width="200" height="200" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+<img src="/public/logo.png" alt="BirdRecon Logo" width="200" height="200" style="border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
 
 <h2>
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=Free+Open+Source+Tool;for+Bird+Species+Recognition" alt="Typing SVG" />
 </h2>
 
 <p align="center">
-  <em>A comprehensive tool for ornithologists and bird enthusiasts powered by Google Gemini and Wikimedia Commons</em>
+  <em>A comprehensive tool for ornithologists and bird enthusiasts to identify and learn about bird species.</em>
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
-## 🌟 **Introduction**
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> **What is BirdRecon?**
 
-BirdRecon is a cutting-edge, free open-source bird identification application designed to support ornithologists and bird enthusiasts. By integrating Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval, we provide a comprehensive reference tool that bridges the gap between amateur bird watching and professional research.
-
-### 🎯 **Key Features**
+**BirdRecon** is a free open-source bird identification application designed to support ornithologists and bird enthusiasts in their field research and observations. The system integrates Google Gemini for detailed species information and Wikimedia Commons for similar image retrieval.
 
 <div align="center">
 
+### 🎯 **Core Features**
+
 <table>
 <tr>
-<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3o7TKSjRrfIPjeiVyE/giphy.gif" width="60px"/><br/><b>Image Recognition</b></td>
-<td>Advanced bird species identification from uploaded images</td>
+<td align="center">
+  <img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="60px"/><br/><b>Image Recognition</b>
+</td>
+<td>Advanced bird species recognition using ensemble learning models</td>
 </tr>
 <tr>
-<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/3oKIPEqDGUULpEU0aQ/giphy.gif" width="60px"/><br/><b>Name Search</b></td>
-<td>Search by bird species names with detailed information</td>
+<td align="center">
+  <img src="https://media.giphy.com/media/l0HlNaQ6gWfllcjDO/giphy.gif" width="60px"/><br/><b>Detailed Information</b>
+</td>
+<td>Comprehensive species information powered by Google Gemini API</td>
 </tr>
 <tr>
-<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xT9IgzoKnwFNmISR8I/giphy.gif" width="60px"/><br/><b>Multi-platform</b></td>
-<td>Available on both mobile and web platforms</td>
+<td align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="60px"/><br/><b>Similar Images</b>
+</td>
+<td>Related bird images from Wikimedia Commons</td>
 </tr>
 <tr>
-<td align="center"><img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDd6Y3E2Y2ptdnhxNXJ1NHYyeHB0Ym8zY2t1bWQyOXJtOWRtY2JxdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/l0HlQXlQ3nHyLMvte/giphy.gif" width="60px"/><br/><b>Open Source</b></td>
-<td>Community-driven development and customization</td>
+<td align="center">
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="60px"/><br/><b>Multi-platform</b>
+</td>
+<td>Available on both web and mobile platforms</td>
 </tr>
 </table>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
-## 📋 **Prerequisites**
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **Prerequisites**
 
 <table>
 <tr>
-<td><img src="https://www.docker.com/wp-content/uploads/2023/04/cropped-Docker-favicon-32x32.png" width="20"/></td>
-<td><a href="https://docs.docker.com/get-docker/">Docker</a></td>
+<td><img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" width="20"/></td>
+<td>Docker</td>
 </tr>
 <tr>
 <td><img src="https://learn.microsoft.com/en-us/azure/media/index/azure-cli.svg" width="20"/></td>
-<td><a href="https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli">Azure CLI</a></td>
+<td>Azure CLI</td>
 </tr>
 <tr>
 <td><img src="https://azure.microsoft.com/favicon.ico" width="20"/></td>
-<td><a href="https://azure.microsoft.com/en-us/free/">Microsoft Azure Account</a></td>
+<td>Microsoft Azure account</td>
 </tr>
 </table>
 
-## 🚀 **Server Deployment**
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> **Server Deployment**
 
-### **Important Note**
-Before starting, download the model file from the provided drive link in `ensemble_final.tflite Link` and place it in:
-```
-BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Identification/Server File/Search By Image/
-```
+### Steps
 
-### **Deployment Steps**
-
-<details>
-<summary>1️⃣ Azure Setup</summary>
-
-```bash
-# Login to Azure
+1. **Log in to Azure:**
+```sh
 az login
+```
 
-# Login to Azure Container Registry
+2. **Log in to Azure Container Registry:**
+```sh
 az acr login --name <YourContainerRegistryName>
 ```
-</details>
 
-<details>
-<summary>2️⃣ Docker Configuration</summary>
-
-```bash
-# Build Docker image
+3. **Build the Docker image:**
+```sh
 docker build -t <YourLocalImageName>:<Tag> .
+```
 
-# Tag Docker image
+4. **Tag the Docker image:**
+```sh
 docker tag <YourLocalImageName>:<Tag> <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
+```
 
-# Push to Azure Container Registry
+5. **Push the Docker image:**
+```sh
 docker push <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
 ```
-</details>
 
-<details>
-<summary>3️⃣ Azure App Service Setup</summary>
-
-```bash
-# Create App Service plan
+6. **Create an Azure App Service plan:**
+```sh
 az appservice plan create --name <YourAppServicePlanName> --resource-group <YourResourceGroupName> --sku B1 --is-linux
+```
 
-# Create web app
+7. **Create a web app:**
+```sh
 az webapp create --resource-group <YourResourceGroupName> --plan <YourAppServicePlanName> --name <YourWebAppName> --deployment-container-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag>
+```
 
-# Configure container registry
+8. **Configure the web app:**
+```sh
 az webapp config container set --resource-group <YourResourceGroupName> --name <YourWebAppName> --docker-custom-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag> --docker-registry-server-url https://<YourContainerRegistryName>.azurecr.io
 ```
-</details>
 
-## 📱 **App Setup**
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **App Setup**
 
-1. Install [Android Studio](https://developer.android.com/studio)
+1. Download and install [Android Studio](https://developer.android.com/studio)
 2. Open the project in Android Studio
-3. Update API endpoints in `birds/species/birdsspeciesclassification/ui/search/SearchFragment.kt`:
-   - Line 201: Update "search by name" endpoint
-   - Line 258: Update "search by image" endpoint
+3. Update the endpoint URLs in `SearchFragment.kt`:
+   - Line 201: Update URL for name search
+   - Line 258: Update URL for image search
 
-## 🌐 **Website Setup**
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> **Website Setup**
 
-1. Navigate to `Website/app.py`
-2. Update the endpoint URL on line 26 with your "search by image upload" endpoint
-3. Follow the Server Deployment steps to deploy the website
+1. Navigate to the Website directory
+2. Update the endpoint URL in `app.py` (line 26)
+3. Follow the Server Deployment steps to deploy
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🤝 **Contributing**
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
-
-We welcome contributions! Here's how you can help:
-
-1. 🍴 Fork the repository
-2. 🌿 Create your feature branch
-3. ✍️ Commit your changes
-4. 🚀 Push to the branch
-5. 🎉 Open a Pull Request
-
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png">
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ## 📄 **License**
 
@@ -162,23 +154,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ### 🎯 **Ready to start identifying birds?**
 
-<a href="https://github.com/yourusername/BirdRecon">
-  <img src="https://img.shields.io/badge/Get_Started-00C7B7?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Get Started"/>
+<a href="https://birdrecon.azurewebsites.net/">
+  <img src="https://img.shields.io/badge/Get_Started-0078D4?style=flat&logo=microsoftazure&logoColor=white&labelColor=black" alt="Get Started"/>
 </a>
-<a href="https://github.com/yourusername/BirdRecon/issues">
-  <img src="https://img.shields.io/badge/Report_Bug-FF0000?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Report Bug"/>
+
+<a href="https://github.com/phantombeast7/BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Species-Recognition/issues">
+  <img src="https://img.shields.io/badge/Report_Bug-FF0000?style=flat&logo=github&logoColor=white&labelColor=black" alt="Report Bug"/>
 </a>
-<a href="https://github.com/yourusername/BirdRecon/issues">
-  <img src="https://img.shields.io/badge/Request_Feature-4CAF50?style=for-the-badge&logo=github&logoColor=white&labelColor=black" alt="Request Feature"/>
+
+<a href="https://github.com/phantombeast7/BirdRecon-A-Free-Open-Source-Tool-for-Image-based-Bird-Species-Recognition/issues">
+  <img src="https://img.shields.io/badge/Request_Feature-4CAF50?style=flat&logo=github&logoColor=white&labelColor=black" alt="Request Feature"/>
 </a>
 
 <br/>
 <br/>
 
-<a href="https://github.com/yourusername">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=Made+with+❤️+by+Your+Name" alt="Made by" />
+<a href="https://github.com/phantombeast7">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=12&duration=3000&pause=1000&color=00C7B7&center=true&vCenter=true&width=435&lines=Made+with+❤️+by+phantombeast7" alt="Made by" />
 </a>
-
-<img src="https://raw.githubusercontent.com/trinib/trinib/main/.images/footer.svg" width="100%">
 
 </div>
