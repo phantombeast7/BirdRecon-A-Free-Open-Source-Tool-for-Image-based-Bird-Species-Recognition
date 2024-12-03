@@ -35,7 +35,7 @@
 <table>
 <tr>
 <td align="center">
-  <img src="https://media.giphy.com/media/3o7TKSjRrfIPjeiVyM/giphy.gif" width="60px"/><br/><b>Image Recognition</b>
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ZwcXpueGRhMDk2NDFjdzB3MjNucXYwNHlvZW14ZXd1ZHF5ZnB6OSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XWTENcavWkhVhobHaa/giphy.gif" width="60px"/><br/><b>Image Recognition</b>
 </td>
 <td>Advanced bird species recognition using ensemble learning models</td>
 </tr>
