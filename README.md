@@ -78,6 +78,8 @@
 <td>Microsoft Azure account</td>
 </tr>
 </table>
+
+
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **App Setup**
 
 1. Download and install [Android Studio](https://developer.android.com/studio)
