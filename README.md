@@ -78,7 +78,19 @@
 <td>Microsoft Azure account</td>
 </tr>
 </table>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **App Setup**
 
+1. Download and install [Android Studio](https://developer.android.com/studio)
+2. Open the project in Android Studio
+3. Update the endpoint URLs in `SearchFragment.kt`:
+   - Line 201: Update URL for name search
+   - Line 258: Update URL for image search
+
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> **Website Setup**
+
+1. Navigate to the Website directory
+2. Update the endpoint URL in `app.py` (line 26)
+3. Follow the Server Deployment steps to deploy
 ## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> **Server Deployment**
 
 ### Steps
@@ -123,19 +135,6 @@ az webapp create --resource-group <YourResourceGroupName> --plan <YourAppService
 az webapp config container set --resource-group <YourResourceGroupName> --name <YourWebAppName> --docker-custom-image-name <YourContainerRegistryName>.azurecr.io/<YourImageName>:<Tag> --docker-registry-server-url https://<YourContainerRegistryName>.azurecr.io
 ```
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> **App Setup**
-
-1. Download and install [Android Studio](https://developer.android.com/studio)
-2. Open the project in Android Studio
-3. Update the endpoint URLs in `SearchFragment.kt`:
-   - Line 201: Update URL for name search
-   - Line 258: Update URL for image search
-
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="28"> **Website Setup**
-
-1. Navigate to the Website directory
-2. Update the endpoint URL in `app.py` (line 26)
-3. Follow the Server Deployment steps to deploy
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
